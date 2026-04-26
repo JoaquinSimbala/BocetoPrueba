@@ -1,0 +1,16 @@
+{
+    "name": "boceto-clasificador-residuos",
+    "version": "1.0.0",
+    "description": "Gestión de cámara web con TensorFlow.js",
+    "private": true,
+    "scripts": {
+        "build": "tsc -p tsconfig.json",
+        "watch": "tsc -w -p tsconfig.json"
+    },
+    "devDependencies": {
+        "typescript": "^5.4.0"
+    }
+}
+
+
+

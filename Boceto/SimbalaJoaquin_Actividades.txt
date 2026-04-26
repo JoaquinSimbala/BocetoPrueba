@@ -1,0 +1,59 @@
+CRONOGRAMA DE ACTIVIDADES - (ML WEB INTEGRATOR)
+-----------------------------------------------------------
+
+FASE 1: CONFIGURACIÓN Y CARGA DEL MODELO (SEMANAS 1 - 4)
+=======================================================
+
+Semana 1: Preparación del Entorno
+- Configuración del entorno de desarrollo con NPM.
+- Instalación de dependencias de TensorFlow.js.
+- Diseño de la estructura de carpetas para modelos y scripts.
+
+Semana 2: Pipeline de Datos en Navegador
+- Definición del pipeline de entrada de imágenes.
+- Programación de funciones de transformación de imagen a Tensores.
+
+Semana 3: Importación de Pesos
+- Recepción de model.json y pesos binarios del Integrante 1.
+- Implementación del script de carga (tf.loadLayersModel).
+- Gestión de fragmentación (sharding) para optimización de carga.
+
+Semana 4: Validación Inicial (Hito v1.0)
+- Pruebas de inferencia estática con imágenes de prueba.
+- Verificación de precisión del modelo en el entorno web.
+
+
+FASE 2: INTERACCIÓN CON HARDWARE Y OPTIMIZACIÓN (SEMANAS 5 - 6)
+===============================================================
+
+Semana 5: Control de Cámara
+- Implementación de MediaDevices API para acceso a webcam.
+- Ajuste de resolución y frames por segundo para dispositivos móviles.
+
+Semana 6: Optimización de Rendimiento
+- Aplicación de técnicas de cuantización para reducción de peso.
+- Configuración de aceleración por hardware (WebGL).
+
+
+FASE 3: INTELIGENCIA EN TIEMPO REAL (SEMANAS 7 - 8)
+===================================================
+
+Semana 7: Loop de Inferencia
+- Creación del bucle de ejecución continua (requestAnimationFrame).
+- Análisis de fotogramas de video en tiempo real.
+
+Semana 8: Post-procesamiento de Datos
+- Mapeo de tensores de salida a etiquetas legibles (Plástico, Vidrio, etc.).
+- Ajuste de umbrales de confianza (thresholds) para las predicciones.
+
+
+FASE 4: INTEGRACIÓN FINAL Y DESPLIEGUE (SEMANAS 9 - 10)
+=======================================================
+
+Semana 9: Sincronización con la PWA
+- Integración del módulo de IA con la interfaz del Integrante 3.
+- Pruebas de flujo de datos entre cámara y UI.
+
+Semana 10: Pruebas de Estrés y Cierre (Hito v2.0)
+- Monitoreo de latencia y consumo de memoria en móviles reales.
+- Documentación técnica final y entrega del sistema de visión.
